@@ -23,6 +23,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'pointcloud_saver = my_rtabmap.pointcloud_saver:main',
         ],
     },
 )
