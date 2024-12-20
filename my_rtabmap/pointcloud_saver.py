@@ -10,7 +10,7 @@ class PointCloudSaver(Node):
         super().__init__('pointcloud_saver')
         self.subscription = self.create_subscription(
             PointCloud2,
-            '/points',  # Replace with your PointCloud2 topic
+            '/cloud_map',  # Replace with your PointCloud2 topic
             self.listener_callback,
             10
         )
