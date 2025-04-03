@@ -24,6 +24,7 @@ setup(
     entry_points={
         'console_scripts': [
             'pointcloud_saver = my_rtabmap.pointcloud_saver:main',
+            'pointcloud_merger = my_rtabmap.pointcloud_merger:main'
         ],
     },
 )
